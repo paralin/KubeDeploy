@@ -16,7 +16,7 @@ namespace KubeDeploy
         private static volatile bool running = true;
         public static void Main(string[] args)
         {
-            XmlConfigurator.Configure();
+            BasicConfigurator.Configure();
             Nancy.Json.JsonSettings.MaxJsonLength = int.MaxValue;
 
             log.Info("Initializing...");
