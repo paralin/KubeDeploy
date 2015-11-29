@@ -50,7 +50,7 @@ namespace KubeDeploy.CI
         /// How long did the build take
         /// </summary>
         [JsonProperty("duration")]
-        public int Duration { get; set; }
+        public int? Duration { get; set; }
 
         /// <summary>
         /// Commit tag
