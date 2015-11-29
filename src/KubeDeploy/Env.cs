@@ -37,7 +37,7 @@ namespace KubeDeploy
         static Env()
         {
             // Exit with missing environment variable
-            KUBERNETES_NAMESPACE = Environment.GetEnvironmentVariable("BRIDGE_KUBERNETES_NAMESPACE");
+            KUBERNETES_NAMESPACE = Environment.GetEnvironmentVariable("KUBERNETES_NAMESPACE");
             if (KUBERNETES_NAMESPACE == null)
                 Environment.Exit(255);
 
