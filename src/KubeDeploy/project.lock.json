@@ -1,0 +1,541 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    "DNX,Version=v4.5.1": {
+      "KubeNET/0.2.6": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "[6.0.8, 8.0.0)",
+          "RestSharp": "[105.2.0, 105.3.0]"
+        },
+        "compile": {
+          "lib/net40/KubeNET.dll": {}
+        },
+        "runtime": {
+          "lib/net40/KubeNET.dll": {}
+        }
+      },
+      "log4net/2.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {}
+        }
+      },
+      "Microsoft.Owin/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        }
+      },
+      "Microsoft.Owin.Host.HttpListener/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        }
+      },
+      "Microsoft.Owin.Hosting/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "3.0.1",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        }
+      },
+      "Nancy/1.4.2": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Nancy.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Nancy.dll": {}
+        }
+      },
+      "Nancy.Owin/1.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Nancy": "1.4.1",
+          "OWIN": "1.0.0"
+        },
+        "compile": {
+          "lib/net40/Nancy.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Nancy.Owin.dll": {}
+        }
+      },
+      "Newtonsoft.Json/7.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      },
+      "OWIN/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      },
+      "RestSharp/105.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net451/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net451/RestSharp.dll": {}
+        }
+      }
+    },
+    "DNX,Version=v4.5.1/win7-x86": {
+      "KubeNET/0.2.6": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "[6.0.8, 8.0.0)",
+          "RestSharp": "[105.2.0, 105.3.0]"
+        },
+        "compile": {
+          "lib/net40/KubeNET.dll": {}
+        },
+        "runtime": {
+          "lib/net40/KubeNET.dll": {}
+        }
+      },
+      "log4net/2.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {}
+        }
+      },
+      "Microsoft.Owin/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        }
+      },
+      "Microsoft.Owin.Host.HttpListener/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        }
+      },
+      "Microsoft.Owin.Hosting/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "3.0.1",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        }
+      },
+      "Nancy/1.4.2": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Nancy.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Nancy.dll": {}
+        }
+      },
+      "Nancy.Owin/1.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Nancy": "1.4.1",
+          "OWIN": "1.0.0"
+        },
+        "compile": {
+          "lib/net40/Nancy.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Nancy.Owin.dll": {}
+        }
+      },
+      "Newtonsoft.Json/7.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      },
+      "OWIN/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      },
+      "RestSharp/105.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net451/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net451/RestSharp.dll": {}
+        }
+      }
+    },
+    "DNX,Version=v4.5.1/win7-x64": {
+      "KubeNET/0.2.6": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "[6.0.8, 8.0.0)",
+          "RestSharp": "[105.2.0, 105.3.0]"
+        },
+        "compile": {
+          "lib/net40/KubeNET.dll": {}
+        },
+        "runtime": {
+          "lib/net40/KubeNET.dll": {}
+        }
+      },
+      "log4net/2.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {}
+        }
+      },
+      "Microsoft.Owin/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        }
+      },
+      "Microsoft.Owin.Host.HttpListener/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        }
+      },
+      "Microsoft.Owin.Hosting/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "3.0.1",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        }
+      },
+      "Nancy/1.4.2": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Nancy.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Nancy.dll": {}
+        }
+      },
+      "Nancy.Owin/1.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Nancy": "1.4.1",
+          "OWIN": "1.0.0"
+        },
+        "compile": {
+          "lib/net40/Nancy.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Nancy.Owin.dll": {}
+        }
+      },
+      "Newtonsoft.Json/7.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      },
+      "OWIN/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      },
+      "RestSharp/105.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net451/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net451/RestSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KubeNET/0.2.6": {
+      "type": "package",
+      "sha512": "pt9da9hfvHDoDN+5F1uGSuo5gVvbNBtFFyBD65qno5YGU/2qQ1Sr+QJ+t2+j+09yn/vWxOW/i3n87yqRDA+/lA==",
+      "files": [
+        "KubeNET.0.2.6.nupkg",
+        "KubeNET.0.2.6.nupkg.sha512",
+        "KubeNET.nuspec",
+        "lib/net40/KubeNET.dll",
+        "lib/net40/KubeNET.pdb",
+        "lib/net40/KubeNET.xml"
+      ]
+    },
+    "log4net/2.0.4": {
+      "type": "package",
+      "sha512": "t0S0jxtcEQQRYUfWSyxE96NPXo4uH6EHvVtRkp17u16jGslooCqjN2WIaw74N3etYF7a/2VOxW6Z/a5cDRVmNw==",
+      "files": [
+        "lib/net10-full/log4net.dll",
+        "lib/net10-full/log4net.xml",
+        "lib/net11-full/log4net.dll",
+        "lib/net11-full/log4net.xml",
+        "lib/net20-full/log4net.dll",
+        "lib/net20-full/log4net.xml",
+        "lib/net35-client/log4net.dll",
+        "lib/net35-client/log4net.xml",
+        "lib/net35-full/log4net.dll",
+        "lib/net35-full/log4net.xml",
+        "lib/net40-client/log4net.dll",
+        "lib/net40-client/log4net.xml",
+        "lib/net40-full/log4net.dll",
+        "lib/net40-full/log4net.xml",
+        "lib/net45-full/log4net.dll",
+        "lib/net45-full/log4net.xml",
+        "log4net.2.0.4.nupkg",
+        "log4net.2.0.4.nupkg.sha512",
+        "log4net.nuspec"
+      ]
+    },
+    "Microsoft.Owin/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "64yZsGN9uRnXNVAyAT4F6KWmdDUJ6yX4uqzxKTdGANKH1oMt0IKZ7THRRa3mXIOo8iSu4tq/DCBUycUY9pXZzw==",
+      "files": [
+        "lib/net45/Microsoft.Owin.dll",
+        "lib/net45/Microsoft.Owin.XML",
+        "Microsoft.Owin.3.0.1.nupkg",
+        "Microsoft.Owin.3.0.1.nupkg.sha512",
+        "Microsoft.Owin.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Host.HttpListener/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "2aYSE/QQVpybHP9mDz4yMgzvxdfEgGjbtetU1aPWHrKqv7mSXlNeXIBcWSrF4MvW/ghwEk8bZghYefNupjeAEg==",
+      "files": [
+        "lib/net45/Microsoft.Owin.Host.HttpListener.dll",
+        "lib/net45/Microsoft.Owin.Host.HttpListener.xml",
+        "Microsoft.Owin.Host.HttpListener.3.0.1.nupkg",
+        "Microsoft.Owin.Host.HttpListener.3.0.1.nupkg.sha512",
+        "Microsoft.Owin.Host.HttpListener.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Hosting/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "OJ8teZPtI50xeeLzJN/6p3N2/qkkcJjz5dXwRnO0VtDbFZT5uzQLAa/s4Q+6WeWI9nEoVdUGi6J1KQ1zjTtaaA==",
+      "files": [
+        "lib/net45/Microsoft.Owin.Hosting.dll",
+        "lib/net45/Microsoft.Owin.Hosting.XML",
+        "Microsoft.Owin.Hosting.3.0.1.nupkg",
+        "Microsoft.Owin.Hosting.3.0.1.nupkg.sha512",
+        "Microsoft.Owin.Hosting.nuspec"
+      ]
+    },
+    "Nancy/1.4.2": {
+      "type": "package",
+      "sha512": "z5T4A29MJT3TuJcdhfrh3FaztG0i3PIiB86hb/AJbBlBiIhvTeP0AJ7SGCD5bv9E7oxu1tq5sHpbqqL7ioNVRg==",
+      "files": [
+        "lib/net40/Nancy.dll",
+        "lib/net40/Nancy.xml",
+        "Nancy.1.4.2.nupkg",
+        "Nancy.1.4.2.nupkg.sha512",
+        "Nancy.nuspec"
+      ]
+    },
+    "Nancy.Owin/1.4.1": {
+      "type": "package",
+      "sha512": "MQ080omNirThxP5XcHkzx6XIgoZvnHSKxIK1z6jFtXje6p2JjbWszv0AKZQXqnrrJJiAFc4KjIT2PX4KS3LtHw==",
+      "files": [
+        "lib/net40/Nancy.Owin.dll",
+        "lib/net40/Nancy.Owin.XML",
+        "Nancy.Owin.1.4.1.nupkg",
+        "Nancy.Owin.1.4.1.nupkg.sha512",
+        "Nancy.Owin.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/7.0.1": {
+      "type": "package",
+      "sha512": "q3V4KLetMLnt1gpAVWgtXnHjKs0UG/RalBc29u2ZKxd5t5Ze4JBL5WiiYIklJyK/5CRiIiNwigVQUo0FgbsuWA==",
+      "files": [
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
+        "Newtonsoft.Json.7.0.1.nupkg",
+        "Newtonsoft.Json.7.0.1.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "Owin/1.0.0": {
+      "type": "package",
+      "sha512": "OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw==",
+      "files": [
+        "lib/net40/Owin.dll",
+        "OWIN.1.0.0.nupkg",
+        "OWIN.1.0.0.nupkg.sha512",
+        "OWIN.nuspec"
+      ]
+    },
+    "OWIN/1.0.0": {
+      "type": "package",
+      "sha512": "OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw==",
+      "files": [
+        "lib/net40/Owin.dll",
+        "OWIN.1.0.0.nupkg",
+        "OWIN.1.0.0.nupkg.sha512",
+        "OWIN.nuspec"
+      ]
+    },
+    "RestSharp/105.2.0": {
+      "type": "package",
+      "sha512": "cYs3wDrR1D2S6TwJlP+7bhq0orDvvL3+xxSc1viLFVFrityD/4JJHy6F5xgHqvClQkddgMJPK9e7S0ztT/J8uw==",
+      "files": [
+        "lib/net35/RestSharp.dll",
+        "lib/net35/RestSharp.xml",
+        "lib/net35-client/RestSharp.dll",
+        "lib/net35-client/RestSharp.xml",
+        "lib/net4/RestSharp.dll",
+        "lib/net4/RestSharp.xml",
+        "lib/net45/RestSharp.dll",
+        "lib/net45/RestSharp.xml",
+        "lib/net451/RestSharp.dll",
+        "lib/net451/RestSharp.xml",
+        "lib/net451-client/RestSharp.dll",
+        "lib/net451-client/RestSharp.xml",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/net452-client/RestSharp.dll",
+        "lib/net452-client/RestSharp.xml",
+        "lib/net45-client/RestSharp.dll",
+        "lib/net45-client/RestSharp.xml",
+        "lib/net4-client/RestSharp.dll",
+        "lib/net4-client/RestSharp.xml",
+        "lib/sl4/RestSharp.Silverlight.dll",
+        "lib/sl4/RestSharp.Silverlight.xml",
+        "lib/windowsphone8/RestSharp.WindowsPhone.dll",
+        "lib/windowsphone8/RestSharp.WindowsPhone.xml",
+        "readme.txt",
+        "RestSharp.105.2.0.nupkg",
+        "RestSharp.105.2.0.nupkg.sha512",
+        "RestSharp.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "KubeNET >= 0.2.6",
+      "log4net >= 2.0.4",
+      "Microsoft.Owin.Hosting >= 3.0.1",
+      "Newtonsoft.Json >= 7.0.1"
+    ],
+    "DNX,Version=v4.5.1": [
+      "Microsoft.Owin >= 3.0.1",
+      "Microsoft.Owin.Host.HttpListener >= 3.0.1",
+      "Nancy >= 1.4.2",
+      "Nancy.Owin >= 1.4.1"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0-*",
+  "description": "KubeDeploy Console Application",
+  "authors": [ "kidov" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+  "commands": {
+    "KubeDeploy": "KubeDeploy"
+  },
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "Microsoft.Owin": "3.0.1",
+        "Microsoft.Owin.Host.HttpListener": "3.0.1",
+        "Nancy": "1.4.2",
+        "Nancy.Owin": "1.4.1"
+      }
+    }
+  },
+  "dependencies": {
+    "KubeNET": "0.2.6",
+    "log4net": "2.0.4",
+    "Microsoft.Owin.Hosting": "3.0.1",
+    "Newtonsoft.Json": "7.0.1"
+  }
+}
